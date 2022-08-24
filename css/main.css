@@ -202,6 +202,7 @@ main {
     font-weight: 400;
     font-size: 1.125rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.5s ease;
 }
 
 .text-box>a:hover {
@@ -249,6 +250,7 @@ li {
 li i {
     color: white;
     font-size: 1.125rem;
+    transition: all 0.5s ease;
 }
 
 li:hover i {
@@ -266,6 +268,7 @@ li::before {
     border: 0.063rem solid white;
     background-color: transparent;
     border-radius: 50%;
+    transition: all 0.5s ease;
 }
 
 li:hover:before {
